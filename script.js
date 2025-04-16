@@ -14,6 +14,7 @@ const getSum = () => {
 	
 	let trNew = document.createElement("tr");
 	let tdNew = document.createElement("td");
+	tdNew.setAttribute('id','ans')
 	tdNew.textContent = sum;
 	trNew.appendChild(tdNew);
 	tab.appendChild(trNew);
